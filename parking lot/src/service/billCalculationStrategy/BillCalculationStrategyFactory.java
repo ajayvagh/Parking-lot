@@ -13,4 +13,7 @@ public class BillCalculationStrategyFactory {
         }
     }
 
+    public static BillCalculationStrategy getBillCalculationStrategy() {
+        return null;
+    }
 }
