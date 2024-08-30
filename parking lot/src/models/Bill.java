@@ -7,7 +7,8 @@ public class Bill extends BaseModel {
     private int amount;
     private Ticket ticket;
     private Gate gate;
-//    private models.Payment payment;
+
+//private models.Payment payment;
 
     public LocalDateTime getExitTime() {
         return exitTime;
@@ -48,4 +49,6 @@ public class Bill extends BaseModel {
 //    public void setPayment(models.Payment payment) {
 //        this.payment = payment;
 //    }
+
+
 }
